@@ -1,4 +1,45 @@
-#header{background-color: aqua;}
-#menu{background-color: coral;}
-#content{background-color: white;}
-#footer{background-color: gray;}
+html,
+	body {
+	  height: 100%;
+	  width: 100%;
+	}
+	
+#header{
+    background-color: aqua;
+}
+#menu{
+    background-color: coral;
+    float: left;
+    width: 150px;
+    height: 100%;
+    font-size: 20px;
+}
+#menu ul li{
+    list-style-type: none;
+ }
+ #menu ul li a{
+      text-decoration: none;
+ }
+ #menu ul li a:hover{
+     background-color: white;
+     }
+#content{
+    background-color: ivory;
+    margin-left: 160px;
+}
+#footer{
+    background-color: gray;
+}
+.myforms{
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 20px;
+      width: 200px;
+  }
+  #sourceForm{
+    background-color: yellow;
+  }
+  #targetForm{
+    background-color: lightgreen;
+  }
